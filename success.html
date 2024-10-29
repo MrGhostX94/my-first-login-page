@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>successful.html</title>
+</head>
+<body>
+    <style>
+        /* Second page */
+
+    body{ 
+        animation: myBody 10s linear infinite;
+    }
+
+    h1{
+        color: #00ffee;
+        font-size: 35px;
+        animation: myText 10s linear infinite;
+    }
+    /* wrapper */
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* This ensures the container takes up the full viewport height */
+    }
+
+    @keyframes myBody {
+        0%{
+            background-color: #00ffee;
+        }
+        50%{
+            background-color: #151515;
+        }
+        100%{
+            background-color: #00ffee;
+        }
+    }
+
+    @keyframes myText{
+        0%{
+            color: #151515;
+        }
+        50%{
+            color: #00ffee;
+        }
+        100%{
+            color: #151515;
+        }
+    }
+    </style>
+    <div class="wrapper">
+        <h1>Mission successful!😁😁😁😁</h1>
+    </div>
+</body>
+</html>
